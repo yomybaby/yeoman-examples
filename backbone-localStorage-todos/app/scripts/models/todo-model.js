@@ -17,7 +17,6 @@
 	    	};
 	    	return Backbone.sync(method, model, options);
 	    },
-
 	    toggle: function () {
 	        this.save({
 	            completed: !this.get('completed')
